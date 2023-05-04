@@ -1,0 +1,17 @@
+<!--pages/9-othercomponent/9-othercomponent.wxml-->
+<wxs src="./sum.wxs" module="sum"></wxs>
+<icon class="icon-box-img" type="success_no_circle" size="20" color="#C9C9C9"></icon>
+
+<view wx:for="{{checkList}}" wx:key="index" style="display:flex;justify-content:space-around;padding:10px;">
+  <checkbox bindtap="handeTap" data-index="{{index}}" checked="{{item.isChecked}}"></checkbox>
+  <view>
+    <view>{{item.name}}</view>
+    <view>价格:￥{{item.price}}</view>
+  </view>
+  <view>{{item.number}}</view>
+</view>
+
+<view>
+  金额计算：{{sum(checkList)}}
+</view>
+

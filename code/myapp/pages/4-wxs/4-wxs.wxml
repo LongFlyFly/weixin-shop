@@ -1,0 +1,12 @@
+<!--pages/4-wxs/4-wxs.wxml-->
+<wxs src="./date.wxs" module="handleDate" />
+<wxs src="./goodFilter.wxs" module="goodFilter" />
+<text>{{handleDate(startTime)}}</text>
+
+<view>
+  <input bindinput="handleInput"/>
+
+  <view wx:for="{{goodFilter(goodsList,mytext)}}" wx:key="index">
+    {{item}}
+  </view>
+</view>

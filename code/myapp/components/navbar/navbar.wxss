@@ -1,0 +1,16 @@
+/* components/navbar/navbar.wxss */
+.box{
+  display: flex;
+  flex-direction: row;
+}
+
+.item{
+  flex:1;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.active{
+  color:red;
+}

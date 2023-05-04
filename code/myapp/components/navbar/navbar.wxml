@@ -1,0 +1,7 @@
+<!--components/navbar/navbar.wxml-->
+
+<view class="box">
+  <view wx:for="{{list}}" wx:key="index" class="item {{current===index?'active':''}}" bindtap="handleClick" data-index="{{index}}">
+    {{item}}
+  </view>
+</view>

@@ -1,0 +1,5 @@
+/* pages/4-wxs/4-wxs.wxss */
+
+input {
+  border:2px solid black;
+}

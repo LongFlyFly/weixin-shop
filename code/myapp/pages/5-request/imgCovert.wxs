@@ -1,0 +1,7 @@
+function imgConvert(imgpath){
+  return imgpath.replace("/w.h","")+"@1l_1e_1c_128w_180h"
+}
+
+module.exports = imgConvert
+
+

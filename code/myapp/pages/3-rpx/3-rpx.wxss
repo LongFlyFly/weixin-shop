@@ -1,0 +1,6 @@
+/* pages/3-rpx/3-rpx.wxss */
+.box{
+  width: 750rpx;
+  height: 400rpx;
+  background-color: yellow;
+}

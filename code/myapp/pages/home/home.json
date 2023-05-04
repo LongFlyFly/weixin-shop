@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "navbar":"../../components/navbar/navbar"
+  },
+  "navigationBarTitleText":"首页",
+  "enablePullDownRefresh": true
+}

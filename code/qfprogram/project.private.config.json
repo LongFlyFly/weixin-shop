@@ -1,0 +1,60 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/detail/detail",
+          "pathName": "pages/detail/detail",
+          "query": "name=荣耀9x&id=1",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/searchlist/searchlist",
+          "pathName": "pages/searchlist/searchlist",
+          "query": "id=5&name=vivo",
+          "scene": null
+        },
+        {
+          "name": "pages/category/category",
+          "pathName": "pages/category/category",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/telform/telform",
+          "pathName": "pages/telform/telform",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/shopcar/shopcar",
+          "pathName": "pages/shopcar/shopcar",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/center/center",
+          "pathName": "pages/center/center",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

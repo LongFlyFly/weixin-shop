@@ -1,0 +1,6 @@
+/* pages/6-image/6-image.wxss */
+
+image{
+  width: 300px;
+  height: 100px;
+}

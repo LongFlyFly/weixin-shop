@@ -1,0 +1,25 @@
+<!--pages/demo/demo.wxml-->
+<text>{{ 10+20 }}</text>
+<view>{{ 10>20 ? 'aaaa':'bbbb' }}</view>
+
+<view>{{myname}}</view>
+
+<view id="my-{{ids[0]}}">动态id</view>
+<view id="my-{{ids[1]}}">动态id</view>
+<view id="my-{{ids[2]}}">动态id</view>
+
+<view wx:for="{{list}}" wx:key="index">
+  {{item}}---{{index}}
+</view>
+
+<view wx:for="{{list}}" wx:for-item="kerwinitem" wx:for-index="kerwinindex" wx:key="kerwinindex">
+  {{kerwinitem}}---{{kerwinindex}}
+</view>
+
+<view wx:if="{{isCreated}}">我是动态创建和删除-111111111</view>
+<view wx:else>我是动态创建和删除-2222222222</view>
+
+<view hidden="{{isHidden}}">我是动态隐藏和显示</view>
+
+<button type="primary" bindtap="handleTap">click1</button>
+<button type="primary" catchtap="handleTap">click2</button>

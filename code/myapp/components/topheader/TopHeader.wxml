@@ -1,0 +1,6 @@
+<!--components/topheader/TopHeader.wxml-->
+<view class="box">
+  <slot name="left"></slot>
+  <text>topheader</text>
+  <slot name="right"></slot>
+</view>

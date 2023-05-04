@@ -1,0 +1,10 @@
+/* pages/5-request/5-request.wxss */
+
+.item{
+  overflow: hidden;
+  padding:10rpx;
+}
+.item image{
+  width: 200rpx;
+  float: left;
+}

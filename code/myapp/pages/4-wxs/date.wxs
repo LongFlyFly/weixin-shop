@@ -1,0 +1,8 @@
+function handleDate(time){
+  // console.log(getDate(time).getDate())
+  var odate = getDate(time)
+  return odate.getFullYear()+"-"+(odate.getMonth()+1)+"-"+odate.getDate()
+}
+
+
+module.exports = handleDate

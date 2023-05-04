@@ -1,0 +1,9 @@
+<!--pages/5-request/5-request.wxml-->
+<wxs src="./imgCovert.wxs" module="imgConvert"></wxs>
+<button type="primary" bindtap="handleAjax">ajax</button>
+
+<view wx:for="{{datalist}}" wx:key="index" class="item">
+  <image src="{{imgConvert(item.img)}}" mode="widthFix"></image>
+  <view>{{item.nm}}</view>
+</view>
+

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/5-request/5-request",
+    "pages/home/home",
+    "pages/center/center"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#14c145",
+    "navigationBarTitleText": "锋购",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor":"#14c145",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/5-request/5-request",
+      "text": "测试",
+      "iconPath": "images/camera.png",
+      "selectedIconPath": "images/camera_light.png"
+    },
+    {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home_light.png"
+    },
+    {
+      "pagePath": "pages/center/center",
+      "text": "我的",
+      "iconPath": "images/my.png",
+      "selectedIconPath": "images/my_light.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

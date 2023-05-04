@@ -1,0 +1,21 @@
+/* pages/8-scrollview/8-scrollview.wxss */
+
+.box{
+  height: 300px;
+}
+
+.item{
+  height: 300px;
+}
+
+.box_horizontal{
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.item_horizontal{
+  width: 200px;
+  flex-shrink: 0;
+}

@@ -1,0 +1,7 @@
+<!--pages/7-swiper/7-swiper.wxml-->
+<button bindtap="handleAjax">ajax-swiper</button>
+<swiper indicator-dots="{{true}}" circular="{{true}}" interval="{{3000}}" autoplay="{{true}}">
+  <swiper-item wx:for="{{datalist}}" wx:key="index">
+    <image src="{{item.image_url}}" mode="widthFix" style="width:100%"></image>
+  </swiper-item>
+</swiper>
